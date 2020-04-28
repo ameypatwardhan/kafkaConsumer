@@ -1,5 +1,6 @@
-package com.techprimers.kafka.springbootkafkaconsumerexample.listener;
+package com.example.kafka.springbootkafkaconsumerexample.listener;
 
+import com.example.kafka.springbootkafkaconsumerexample.model.Book;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -14,8 +15,9 @@ public class KafkaConsumer {
 
 
 
-        RestTemplate restTemplate = new RestTemplate();
-        Book obj = restTemplate.getForObject("http://gturnquist-quoters.cfapps.io/api/random", Book.class);
+       /* RestTemplate restTemplate = new RestTemplate();
+        String personResultAsJsonStr =
+                restTemplate.postForObject("http://localhost:8081/kafka/publish/hello", message, String.class);*/
     }
 
 

@@ -1,4 +1,4 @@
-package com.techprimers.kafka.springbootkafkaconsumerexample.config;
+package com.example.kafka.springbootkafkaconsumerexample.config;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;

@@ -1,4 +1,4 @@
-package com.techprimers.kafka.springbootkafkaconsumerexample.model;
+package com.example.kafka.springbootkafkaconsumerexample.model;
 
 public class Book {
 
